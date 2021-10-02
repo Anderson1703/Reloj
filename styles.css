@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+}
+
+.contenedor {
+    background: transparent;
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+
+.cajas {
+    max-height: min-content;
+    background: transparent;
+    outline: none;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.hijos {
+    text-align: center;
+}
+
+.horas {
+    border-top: 2px solid rgb(20, 130, 207);
+}
+
+.minutos {
+    border-top: 2px solid rgb(137, 201, 9);
+}
+
+.segundos {
+    border-top: 2px solid rgb(121, 8, 40);
+}
+
+.nietos {
+    width: 30px;
+    text-align: center;
+}
+
+.titulo {
+    padding: 15px;
+    text-align: center;
+    color: rgb(137, 201, 9);
+}
